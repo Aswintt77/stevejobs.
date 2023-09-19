@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Kablammo&family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:
+}
+body{
+    color: snow;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+
+}
+.navbar a:hover{
+    color: blue;
+}
+.navbar{
+    display: flex;
+}
+.home{
+    background: url(images/GrMyfpm-steve-jobs-wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 46px;
+    font-weight: 600;
+}
+.home-content h1{color: red;
+    
+}
+.home-content p{
+    font-size: 16px;
+}
+.steve{
+    margin-left: 50px;
+    height: 200px;
+    padding-top: 100px;
+    
+}
+.steve img{
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 172px;
+}
+.about{
+    background: black;
+}
+.about-content h2{
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.about-content h2:hover{
+    color: blue;
+}
+.wiki h3{
+    text-align: center;
+    padding: 50px;
+    
+}
+.about-content p{
+    font-size: 16px;
+    max-width: 600px;
+    margin-left: 600px;
+    margin-top: 10px;
+    
+}
+.about-content{
+    margin-top:0;
+}
+.project{
+    background: black;
+
+    
+
+}
+.proimage:hover{
+   
+}
+.project h2{
+    text-align: center;
+    padding: 200px;
+    font-size: 33px;
+    
+}
+.project h2:hover{
+    color: blue;
+}
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.proimage{
+    padding: 30px;
+    
+    
+    
+    
+    
+
+}
+.projects h3{
+    margin-left: 140px;
+}
+.projects p{
+    max-width: 300px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.ipod:hover{
+    color:beige;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 15px beige;
+}
+.macbook:hover{
+    color:beige;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 15px beige;
+}
+.iphone:hover{
+    color:beige;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 15px beige;
+}
+.Awards{
+    background-color: black;
+
+}
+.Awards h3{
+    text-align: center;
+    padding: 150px;
+    font-size: 33px;
+}
+.Awards h3:hover{
+    color: blue;
+}
+.Awards img{
+    margin-left: 50px;
+}
+.ava{
+    display: flex;
+}
+.ava p{
+    max-width: 800px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px beige;
+}
+.contact{
+    background-color: black;
+    
+}
+.contact h3{
+    text-align: center;
+    padding: 100px;
+    font-size: 33px;
+}
+.contact h3:hover{
+    color: blue;
+}
+.points{
+    margin-left: 200px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.contact h4{
+    margin-bottom: 30px;
+}
+.contacts{
+display: flex;   
+}
+.location{
+    margin-left: 400px;
+}
+.in{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+.out{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.query h4{
+    margin-left: 230px;
+}   
+.query img{
+    margin-left: 250px;
+    padding: 5px;
+}
